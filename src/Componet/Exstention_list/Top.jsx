@@ -14,13 +14,13 @@ const Top = () => {
           type="button"
           className="py-2 px-4 bg-secondary-button-color cursor-pointer rounded-2xl text-header-color"
         >
-          Active{"2"}
+          Active(8)
         </button>
         <button
           type="button"
           className="py-2 px-4 bg-secondary-button-color cursor-pointer rounded-2xl text-header-color"
         >
-          Inactive{"1"}
+          Inactive(4)
         </button>
       </div>
     </div>
