@@ -1,5 +1,16 @@
 @import "tailwindcss";
 
+@theme {
+  --color-background-color: hsl(227, 75%, 14%);
+  --color-header-color: hsl(0, 0%, 93%);
+  --color-panel-color: hsl(225, 23%, 24%);
+  --color-secondary-button-color: hsl(226, 11%, 37%);
+  --color-red: hsl(3, 86%, 64%);
+  --color-gray: hsl(217, 61%, 90%);
+  --color-light-gray: hsl(200, 60%, 99%);
+  --color-: hsl(0, 0%, 93%);
+}
+
 body {
   height: 100vh;
 }
