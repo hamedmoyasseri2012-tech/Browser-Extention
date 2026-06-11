@@ -1,7 +1,7 @@
-const App = () => {
+const Header = () => {
   return (
     <>
-      <div className="flex justify-between items-center border w-202.25 h-26.5 ">
+      <div className="flex justify-between items-center border w-202.25 h-26.5 pl-4 pr-4 rounded-xl bg-[#2f354b] ">
         <div className="flex gap-2 ">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -61,4 +61,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default Header;
