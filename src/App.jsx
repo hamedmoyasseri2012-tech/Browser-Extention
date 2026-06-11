@@ -1,5 +1,5 @@
 import Footer from "./Componet/Footer";
-import Section from "./Componet/Exsation_list/Section";
+import Section from "./Componet/Exstention_list/Section";
 import Header from "./Componet/Header";
 
 const App = () => {
