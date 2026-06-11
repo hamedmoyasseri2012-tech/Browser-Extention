@@ -1,11 +1,12 @@
 import Top from "./Top";
 import Bot from "./Bot";
 
-const Section = () => {
+const Section = ({data}) => {
+  // console.log(data);
   return (
     <>
       <Top />
-      <Bot />
+      <Bot mamd={data} />
     </>
   );
 };

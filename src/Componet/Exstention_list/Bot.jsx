@@ -1,7 +1,8 @@
-const Bot = () => {
+const Bot = ({mamd}) => {
+    console.log(mamd);
   return (
     <div className="grid grid-cols-2 gap-4 mt-4 justify-center items-center px-22 ">
-        
+
       <section>
         <div className="flex flex-col relative justify-center items-center gap-4 pl-4 pr-4 border bg-[#2f354b] rounded-xl w-100 h-59">
           <div className="flex gap-4 ">
