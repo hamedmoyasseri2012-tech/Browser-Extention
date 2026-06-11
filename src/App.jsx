@@ -2,13 +2,18 @@ import Footer from "./Componet/Footer";
 import Section from "./Componet/Exstention_list/Section";
 import Header from "./Componet/Header";
 import data from "../public/data.json"
+import { useState } from "react";
 const App = () => {
-  const info = JSON.stringify(data)
-  console.log(info);
+  const source = JSON.stringify(data);
+  const [info, setInfo] = useState(source);
+
+  // console.log("information: ",info);
+
+  // console.log("source: ",source);
   return (
-    < >
+    <>
       <Header />
-      <Section data={info}/>
+      <Section data={info} />
       <Footer />
     </>
   );

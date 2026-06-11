@@ -1,12 +1,12 @@
 import Top from "./Top";
-import Bot from "./Bot";
+import Bottom from "./Bottom";
 
 const Section = ({data}) => {
   // console.log(data);
   return (
     <>
       <Top />
-      <Bot mamd={data} />
+      <Bottom dC={data} />
     </>
   );
 };

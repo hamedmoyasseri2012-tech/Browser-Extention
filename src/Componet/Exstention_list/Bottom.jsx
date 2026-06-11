@@ -1,5 +1,5 @@
-const Bot = ({mamd}) => {
-    console.log(mamd);
+const Bot = ({dC}) => {
+    console.log("data Center:",dC);
   return (
     <div className="grid grid-cols-2 gap-4 mt-4 justify-center items-center px-22 ">
 
