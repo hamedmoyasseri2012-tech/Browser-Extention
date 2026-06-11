@@ -1,4 +1,8 @@
 const Section = () => {
-  return <></>;
+  return (<>
+   <Top/>
+   <Bot/>  
+  
+  </>);
 };
 export default Section;
