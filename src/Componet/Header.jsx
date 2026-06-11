@@ -29,7 +29,7 @@ const Header = () => {
             </defs>
           </svg>
         </div>
-        <div className="border w-[66px] h-[59px] flex justify-center items-center bg-[#535969] rounded-xl">
+        <div className="border w-16.5 h-14.75 flex justify-center items-center bg-[#535969] rounded-xl outline-none">
           <svg
             className="text-[#fbfdfd]"
             xmlns="http://www.w3.org/2000/svg"
@@ -57,7 +57,6 @@ const Header = () => {
           </svg>
         </div>
       </div>
-      ;
     </>
   );
 };
