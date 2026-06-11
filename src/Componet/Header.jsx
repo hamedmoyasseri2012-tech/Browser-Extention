@@ -4,6 +4,7 @@ const Header = () => {
       <div className="flex justify-between items-center border w-250 h-26.5 pl-8 pr-8 rounded-xl bg-[#2f354b] ">
         <div className="flex gap-2 ">
           <svg
+            className="text-[#ecedf0]"
             xmlns="http://www.w3.org/2000/svg"
             width="179"
             height="41"
