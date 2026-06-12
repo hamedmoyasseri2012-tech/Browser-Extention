@@ -1,14 +1,11 @@
 const Bottom = ({ dC }) => {
   // console.log("data Center:", dC);
-  
+
   return (
-    <div className="grid grid-cols-[repeat(auto-fill,minmax(100px,400px))] w-80%  gap-5 mt-4 justify-center relative px-22 ">
+    <div className="grid  grid-cols-[repeat(auto-fit,minmax(350px,1fr))] w-full  gap-5 mt-2 justify-center  px-22 ">
       {dC.map((items, index) => (
-        <section
-          key={index}
-          className="grid grid-cols-[repeat(auto-fill,minmax(100px,400px))] w-80%  gap-5 mt-4 justify-center relative px-22 "
-        >
-          <div className="flex flex-col relative justify-center items-center gap-4 pl-4 pr-4 border bg-[#2f354b] rounded-xl w-100 h-55">
+        <section key={index}>
+          <div className="flex flex-col  justify-center items-center gap-4 pl-4 pr-4 border bg-[#2f354b] rounded-xl w-100 ">
             <div className="flex gap-4 ">
               <img
                 className="w-15 h-15 justify-center items-center mt-7 "
@@ -25,7 +22,7 @@ const Bottom = ({ dC }) => {
               </div>
             </div>
             <div
-              className="flex justify-center gap-56
+              className="flex justify-between w-full
            items-center"
             >
               <button className="border border-[#535969] text-xl font-medium text-[#aad1da] bg-[#535969] w-28.25 h-11.5 rounded-2xl">

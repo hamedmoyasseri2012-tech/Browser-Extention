@@ -13,4 +13,8 @@
 
 body {
   height: 100vh;
+  overflow-x: hidden;
 }
+/* * {
+  outline: 1px solid red;
+} */
