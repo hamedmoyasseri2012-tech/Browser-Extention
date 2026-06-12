@@ -5,7 +5,7 @@ const Bottom = ({ dC }) => {
     <div className="grid  grid-cols-[repeat(auto-fit,minmax(350px,1fr))] w-full  gap-5 mt-2 justify-center  px-22 ">
       {dC.map((items, index) => (
         <section key={index}>
-          <div className="flex flex-col  justify-center items-center gap-4 pl-4 pr-4 border bg-[#2f354b] rounded-xl w-100 ">
+          <div className="flex flex-col  justify-center items-center gap-4 pl-4 pr-4 border bg-[#2f354b] rounded-xl w-100 h-55 ">
             <div className="flex gap-4 ">
               <img
                 className="w-15 h-15 justify-center items-center mt-7 "
