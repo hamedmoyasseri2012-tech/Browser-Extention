@@ -1,5 +1,5 @@
 const Top = () => {
-  console.log("hello");
+  // console.log("hello");
   return (
     <div className="flex justify-between pt-8">
       <h1 className="text-header-color text-4xl font-bold ">
