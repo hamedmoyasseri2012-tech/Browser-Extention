@@ -43,4 +43,5 @@ const Bottom = ({ dC }) => {
     </div>
   );
 };
+
 export default Bottom;
