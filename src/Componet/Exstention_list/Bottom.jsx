@@ -1,3 +1,5 @@
+import MessageBox from "./Componet/MessageBox";
+
 const Bottom = ({ dC }) => {
   // console.log("data Center:", dC);
 
@@ -25,8 +27,9 @@ const Bottom = ({ dC }) => {
               className="flex justify-between w-full
            items-center"
             >
-              <button className="border border-[#535969] text-xl font-medium text-[#aad1da] bg-[#535969] w-28.25 h-11.5 rounded-2xl">
+              <button className="border border-[#535969] text-xl font-medium text-[#aad1da] bg-[#535969] w-28.25 h-11.5 rounded-2xl hover:bg-[#2f354b] hover:border-3 hover:border-[#f35c55]">
                 Remove
+                <MessageBox />
               </button>
               <label class="relative inline-flex cursor-pointer items-center">
                 <input type="checkbox" class="peer sr-only" checked />

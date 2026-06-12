@@ -1,6 +1,7 @@
 import Footer from "./Componet/Footer";
 import Section from "./Componet/Exstention_list/Section";
 import Header from "./Componet/Header";
+
 import data from "../public/data.json";
 import { useState } from "react";
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
     <>
       <Header />
       <Section data={info} />
+
       <Footer />
     </>
   );
