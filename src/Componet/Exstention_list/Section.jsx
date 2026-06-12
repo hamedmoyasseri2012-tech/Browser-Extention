@@ -1,5 +1,5 @@
 import Top from "./Top";
-import Bottom from "./Bottom";
+import Bottom from "./Bottom"
 
 const Section = ({data}) => {
   // console.log(data);
