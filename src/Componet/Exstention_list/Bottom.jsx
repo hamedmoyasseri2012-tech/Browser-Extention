@@ -9,8 +9,11 @@ const Bottom = ({ dC }) => {
     // استفاده شد
     //
     return extensionsList.map((items, index) => (
-      <section key={index} className="w-full">
-        <div className="flex flex-col relative justify-center items-center gap-4 pl-4 pr-4 border bg-[#2f354b] rounded-xl w-100 h-59">
+      <section
+        key={index}
+        className="grid grid-cols-[repeat(auto-fill,minmax(100px,400px))] w-80%  gap-5 mt-4 justify-center relative px-22 "
+      >
+        <div className="flex flex-col relative justify-center items-center gap-4 pl-4 pr-4 border bg-[#2f354b] rounded-xl w-100 h-55">
           <div className="flex gap-4 ">
             <img
               className="w-15 h-15 justify-center items-center mt-7 "
@@ -42,7 +45,7 @@ const Bottom = ({ dC }) => {
     ));
   };
   return (
-    <div className="grid grid-cols-2  gap-4 mt-4 justify-center items-center px-22 ">
+    <div className="grid grid-cols-[repeat(auto-fill,minmax(100px,400px))] w-80%  gap-5 mt-4 justify-center relative px-22 ">
       {renderExtensions(dC)}
     </div>
   );
