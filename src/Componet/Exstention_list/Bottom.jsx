@@ -28,8 +28,10 @@ const Bottom = ({ dC }) => {
               <button className="border border-[#535969] text-xl font-medium text-[#aad1da] bg-[#535969] w-28.25 h-11.5 rounded-2xl">
                 Remove
               </button>
-              <label className="onoffswitch-label" htmlFor="myonoffswitch-0">
-                d
+              <label class="relative inline-flex cursor-pointer items-center">
+                <input type="checkbox" class="peer sr-only" checked />
+                <div class="h-8 w-16 rounded-full bg-red-400 transition peer-checked:bg-red-400"></div>
+                <div class="absolute right-1 h-6 w-6 rounded-full bg-white transition peer-checked:translate-x-0"></div>
               </label>
             </div>
           </div>
